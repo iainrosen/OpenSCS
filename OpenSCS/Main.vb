@@ -14,6 +14,8 @@ Public Class Main
             Me.Text = "Show: " + My.Settings.CurrentShow
         Catch
         End Try
+        DataGridView1.Sort(DataGridView1.Columns(0), System.ComponentModel.ListSortDirection.Ascending)
+
     End Sub
 
     Private Sub ChangeShowToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles ChangeShowToolStripMenuItem.Click
