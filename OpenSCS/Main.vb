@@ -142,7 +142,7 @@ Public Class Main
 
     End Sub
 
-    Private Sub ConnectToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ConnectToolStripMenuItem.Click
+    Private Sub ConnectToolStripMenuItem_Click(sender As Object, e As EventArgs)
         Connect.Show()
 
     End Sub

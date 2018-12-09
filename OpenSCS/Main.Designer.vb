@@ -48,7 +48,6 @@ Partial Class Main
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ConnectToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StopwatchToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RealTimeClockToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LightModeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -255,23 +254,17 @@ Partial Class Main
         Me.AboutToolStripMenuItem1.BackColor = System.Drawing.SystemColors.Control
         Me.AboutToolStripMenuItem1.Image = Global.OpenSCS.My.Resources.Resources.find
         Me.AboutToolStripMenuItem1.Name = "AboutToolStripMenuItem1"
-        Me.AboutToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.AboutToolStripMenuItem1.Size = New System.Drawing.Size(107, 22)
         Me.AboutToolStripMenuItem1.Text = "About"
         '
         'ToolsToolStripMenuItem
         '
         Me.ToolsToolStripMenuItem.BackColor = System.Drawing.Color.Transparent
-        Me.ToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ConnectToolStripMenuItem, Me.StopwatchToolStripMenuItem, Me.RealTimeClockToolStripMenuItem, Me.LightModeToolStripMenuItem})
+        Me.ToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.StopwatchToolStripMenuItem, Me.RealTimeClockToolStripMenuItem, Me.LightModeToolStripMenuItem})
         Me.ToolsToolStripMenuItem.ForeColor = System.Drawing.Color.White
         Me.ToolsToolStripMenuItem.Name = "ToolsToolStripMenuItem"
         Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(47, 20)
         Me.ToolsToolStripMenuItem.Text = "Tools"
-        '
-        'ConnectToolStripMenuItem
-        '
-        Me.ConnectToolStripMenuItem.Name = "ConnectToolStripMenuItem"
-        Me.ConnectToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ConnectToolStripMenuItem.Text = "Connect..."
         '
         'StopwatchToolStripMenuItem
         '
@@ -340,7 +333,6 @@ Partial Class Main
     Friend WithEvents ToolStripMenuItem3 As ToolStripMenuItem
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents ToolStripSeparator4 As ToolStripSeparator
-    Friend WithEvents ConnectToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CueIDDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
     Friend WithEvents Scene As DataGridViewTextBoxColumn
     Friend WithEvents SystemDataGridViewTextBoxColumn As DataGridViewTextBoxColumn
