@@ -37,20 +37,20 @@ Partial Class NewCue
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 39)
+        Me.Label1.Location = New System.Drawing.Point(41, 39)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(66, 13)
+        Me.Label1.Size = New System.Drawing.Size(31, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Cue Number"
+        Me.Label1.Text = "Go #"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(22, 65)
+        Me.Label2.Location = New System.Drawing.Point(46, 65)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(56, 13)
+        Me.Label2.Size = New System.Drawing.Size(26, 13)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "GO/STBY"
+        Me.Label2.Text = "Cue"
         '
         'Label3
         '
